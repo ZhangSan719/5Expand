@@ -1,36 +1,123 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>网页编排示例</title>
+    <title>家居网</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>网页标题</h1>
-        <nav>
-            <ul>
-                <li><a href="#">首页</a></li>
-                <li><a href="#">帮助</a></li>
-            </ul>
-        </nav>
-    </header>
-    <article>
-        <hgroup>
-            <h1>文章主标题</h1>
-            <h2>文章子标题</h2>
-        </hgroup>
-        <p>文章正文</p>
-        <section>
-            <div>
-                <article>
-                    <h1>评论标题</h1>
-                    <p>评论正文</p>
-                </article>
-            </div>
-        </section>
-    </article>
-    <footer>
-        <small>版权所有</small>
-    </footer>
+    <div class="header"><!--头部-->
+        <div class="left"><img src="img/logo.png" alt=""></div>
+        <div class="right">
+            <a href="#">登陆</a> |
+            <a href="#">注册</a>
+        </div>
+    </div>
+    <div class="nav"><!--导航-->
+        <ul class="nav_in">
+            <li class="current"><a href="#">首页</a></li>
+            <li><a href="#">设计案例</a></li>
+            <li><a href="#">装修图库</a></li>
+            <li><a href="#">有问必答</a></li>
+            <li><a href="#">逛商品</a></li>
+        </ul>
+    </div>
+    <div class="banner"><!--广告-->
+        <img class="ban" src="img/banner.jpg" alt="">
+        <ul class="list">
+            <li>
+                <img src="img/pic01.jpg" alt="">
+                <a href="#">浏览真实设计案例</a>
+                <span>设计师原创作品</span>
+            </li>
+            <li>
+                <img src="img/pic02.jpg" alt="">
+                <a href="#">浏览真实设计案例</a>
+                <span>设计师云集于此</span>
+            </li>
+            <li>
+                <img src="img/pic03.jpg" alt="">
+                <a href="#">浏览真实设计案例</a>
+                <span>每秒钟都有设计师在线</span>
+            </li>
+            <li class="last">
+                <img src="img/pic04.jpg" alt="">
+                <a href="#">浏览真实设计案例</a>
+                <span>资金托管，满意担保</span>
+            </li>
+        </ul>
+    </div>
+    <div class="content"><!--内容-->
+        <h2>设计案例</h2>
+        <ul class="pic">
+            <li><img src="img/pic05.jpg" alt=""></li>
+            <li><img src="img/pic06.jpg" alt=""></li>
+            <li class="not"><img src="img/pic07.jpg" alt=""></li>
+            <li><img src="img/pic08.jpg" alt=""></li>
+            <li><img src="img/pic09.jpg" alt=""></li>
+            <li class="not"><img src="img/pic10.jpg" alt=""></li>
+        </ul>
+        <h2>最新动态</h2>
+        <ul class="txt">
+            <li>
+                <h3>有问必答</h3>
+                <dl>
+                    <dt><img src="img/pic01.png" alt=""></dt>
+                    <dd>家居用品哪个品牌好</dd>
+                    <dd class="last">回答：谐美家居用品很不错...</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/pic02.png" alt=""></dt>
+                    <dd>厨房在哪个方位风水好</dd>
+                    <dd class="last">回答：看风水要结合.....</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/pic03.png" alt=""></dt>
+                    <dd>卧室多大比较合适</dd>
+                    <dd class="last">回答: 一般卧室的大小...</dd>
+                </dl>
+            </li>
+            <li>
+                <h3>发布需求</h3>
+                <dl>
+                    <dt><img src="img/pic04.png" alt=""></dt>
+                    <dd>周小姐提交了设计需求</dd>
+                    <dd class="last">上海110平二手住...</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/pic05.png" alt=""></dt>
+                    <dd>林小姐提交了设计需求</dd>
+                    <dd class="last">四川高新区200平别墅...</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/pic06.png" alt=""></dt>
+                    <dd>先生提交了设计需求</dd>
+                    <dd class="last">福建南平150平住宅...</dd>
+                </dl>
+            </li>
+            <li class="right">
+                <h3>预约设计师</h3>
+                <dl>
+                    <dt><img src="img/pic07.png" alt=""></dt>
+                    <dd>李先生预约了酷番做设计</dd>
+                    <dd class="last">长春住宅空间100平</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/pic08.png" alt=""></dt>
+                    <dd>李先生预约了一米阳光做设计</dd>
+                    <dd class="last">北京住宅空间90平</dd>
+                </dl>
+                <dl>
+                    <dt><img src="img/pic09.png" alt=""></dt>
+                    <dd>李先生预约了旋风原创做设计</dd>
+                    <dd class="last">河北住宅空间130平</dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <div class="footer"><!--页脚-->
+        <p>关于我们 | 联系我们 | 意见建议 | 帮助中心 | 使用条款</p>
+        <p>免责声明:本网站部分内容由用户自行上传，如权利人发现存在误传其作品情形，请及时与本站联系。</p>
+    </div>
 </body>
 </html>
